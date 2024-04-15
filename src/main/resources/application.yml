@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: monitoring
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
